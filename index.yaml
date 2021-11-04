@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  app2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-04T21:03:22.922724202+05:30"
+    description: A Helm chart for Kubernetes
+    digest: b971669f0e078a2bbd4cc7ee3163ed16f5db2fefc2e5a2f0c8e1c7059370d1b2
+    name: app2
+    type: application
+    urls:
+    - https://github.com/venudocker/helm-chart/app2-0.1.0.tgz
+    version: 0.1.0
   sftest:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-11-04T20:44:34.165217577+05:30"
+    created: "2021-11-04T21:03:22.924452805+05:30"
     description: A Helm chart for Kubernetes
     digest: 73351a0f82d0790f4ff01bb57259526b86a6ddb57f0d67cceaef19b435641922
     name: sftest
@@ -14,7 +25,7 @@ entries:
   testapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-11-04T20:44:34.174724561+05:30"
+    created: "2021-11-04T21:03:22.926139416+05:30"
     description: A Helm chart for Kubernetes
     digest: e8d0ae22a482666bb33a7d1cb94a04d6d4724317c6860edf68daf816f3db1fdf
     name: testapp
@@ -22,4 +33,4 @@ entries:
     urls:
     - https://github.com/venudocker/helm-chart/testapp-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-04T20:44:34.131011494+05:30"
+generated: "2021-11-04T21:03:22.920380907+05:30"
