@@ -9,8 +9,8 @@ image:
   pullPolicy: Always
 
 imagePullSecrets: []
-nameOverride: ""
-fullnameOverride: ""
+nameOverride: "testapp"
+fullnameOverride: "testapp"
 
 serviceAccount:
   # Specifies whether a service account should be created
