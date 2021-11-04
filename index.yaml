@@ -3,7 +3,7 @@ entries:
   sftest:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-11-04T12:15:43.303615223+05:30"
+    created: "2021-11-04T13:04:30.930360249+05:30"
     description: A Helm chart for Kubernetes
     digest: ab7270ff98395499cc22cdf92fb7decc1a83a6fb11a429e5cdc9ee3da8468106
     name: sftest
@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/venudocker/helm-chart/sftest-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-04T12:15:43.301656393+05:30"
+  testapp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-04T13:04:30.931058823+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 10f6fd8334bb3fda9a27211684379da0af0e8afabff746fdf732b5c2d46f50a1
+    name: testapp
+    type: application
+    urls:
+    - https://github.com/venudocker/helm-chart/testapp-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-11-04T13:04:30.929443872+05:30"
